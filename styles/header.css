@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 2px #d9d9d9 solid;
+    gap: 10px;
+    justify-content: space-between;
+    width: 700px;
+
+}
+
+.logo {
+    height: 60px;
+}
+
+.header_navbar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+.header_link {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    color: #f87000;
+}

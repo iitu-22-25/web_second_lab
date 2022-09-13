@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-items: center;
+    background-color: #e1e1e1;
+    justify-content: space-around
+}
+
+.footer_link, .footer_info {
+    font-size: 10px;
+    color: #606060;
+}
+
+.footer_info {
+    display: grid;
+    grid-gap: 5px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
