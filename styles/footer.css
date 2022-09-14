@@ -8,6 +8,11 @@
 .footer_link, .footer_info {
     font-size: 10px;
     color: #606060;
+    transition: 0.5s;
+}
+
+.footer_link:hover {
+    color: black;
 }
 
 .footer_info {

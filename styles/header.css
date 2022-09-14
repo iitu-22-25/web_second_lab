@@ -27,4 +27,10 @@
     font-size: 10px;
     text-align: center;
     color: #f87000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.header_link:hover {
+    color: black;
 }
