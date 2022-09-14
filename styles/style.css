@@ -33,14 +33,17 @@
     color: black;
 }
 
-@media screen and (max-width: 1441px) {}
+.active {
+    color: black;
+}
 
-@media screen and (max-width: 1229px) {}
-
-@media screen and (max-width: 1069px) {}
-
-@media screen and (max-width: 930px) {}
-
-@media screen and (max-width: 770px) {}
+@media screen and (max-width: 745px) {
+    .header {
+        width: 500px;
+    }
+    .main {
+        width: 500px;
+    }
+}
 
 @media screen and (max-width: 405px) {}
